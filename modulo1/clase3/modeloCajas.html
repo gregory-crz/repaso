@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modelo de cajas</title>
+    <style>
+      #contenedor {
+        width: 800px;
+        margin: 0 auto;
+      }
+
+      .caja {
+        border: 2px solid black;
+        background-color: cadetblue;
+        padding: 3rem;
+      }
+      .columna{
+        display: inline-block;
+        padding: 2rem;
+       
+      }
+      #menu {
+        width: 200px;
+        background-color: burlywood;
+      }
+      #main {
+        width: 312px;
+        background-color: aqua;
+      }
+      #publicidad {
+        width: 200px;
+        background-color: rgb(106, 57, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="caja">barra de navegación</div>
+      <div class="caja">
+        <div class="columna" id="menu">columna menu</div>
+        <div class="columna" id="main">medio</div>
+        <div class="columna" id="publicidad">publicidad</div>
+      </div>
+    </div>
+  </body>
+</html>

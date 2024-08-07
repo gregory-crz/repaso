@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    color: white;
+}
+
+
+.los-malos {
+    background-color: red;
+}
+
+.los-rebeldes{
+    background-color: blue;
+}
+
+#vader{
+    font-size: 30px;
+}
+
+#luke-italic{
+    font-style: italic;
+}
+
+.soldados{
+    border: solid 2px black;
+    /* border-spacing: 10px 5px black solid; */
+    letter-spacing: 1px;
+    
+}
+
+.naves{
+    text-transform: uppercase;
+}
+
+
+.apoyo, .centrar-droides{
+    text-align: center;
+}
+
