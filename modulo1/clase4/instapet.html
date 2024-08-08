@@ -25,26 +25,28 @@
       nam sequi dicta atque doloribus culpa ratione ab. Minus, veniam enim?
     </p>
     <h3>Ingrese los datos de su mascota</h3>
-    <form >
+    <!-- https://formspree.io usamos esa pagina para enviar el formulario -->
+    <form   action="https://formspree.io/f/mgvwykkn"
+    method="POST" >
         <p>
             <label for>Nombre de la mascota</label>
-            <input type="text" placeholder="Ingrese el nombre de la mascota" required="required">
+            <input type="text" name="nombre_mascota" placeholder="Ingrese el nombre de la mascota" required="required">
         </p>
         <p>
             <label >edad</label>
-            <input type="number" placeholder="Ingrese la edad de la mascota" required="required">
+            <input type="number" name="edad" placeholder="Ingrese la edad de la mascota" required="required">
         </p>
         <p>
             <label>Correo</label>
-            <input type="email" placeholder="Ingrese el correo" required="required">
+            <input type="email" name="correo" placeholder="Ingrese el correo" required="required">
         </p>
         <p>
             <label>Contraseña</label>
-            <input type="password" placeholder="Ingrese la Contraseña" required="required">
+            <input type="password" name="password" placeholder="Ingrese la Contraseña" required="required">
         </p>
         <p>
             <label>Color de la mascota</label>
-            <input type="color" placeholder="Ingrese el color de la mascota" required="required">
+            <input type="color" name="color" placeholder="Ingrese el color de la mascota" required="required">
         </p>
         <p>
             <label>Método de pago</label>
