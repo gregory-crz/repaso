@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instapet</title>
+
+    <style>
+        body{
+            background: rgb(0,36,33);
+            background: linear-gradient(0deg, rgba(0,36,33,1) 0%, rgba(255,0,0,0.4834266470259979) 50%, rgba(9,121,121,0.752334210051208) 99%); 
+        }
+        form, h1, h3{
+            text-align: center;
+        }
+    </style>
+    
+  </head>
+
+  <body>
+    <h1>Bienvenidos a Instapet</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum
+      nemo, molestias rem consectetur possimus ipsam aspernatur modi voluptas
+      nam sequi dicta atque doloribus culpa ratione ab. Minus, veniam enim?
+    </p>
+    <h3>Ingrese los datos de su mascota</h3>
+    <form >
+        <p>
+            <label for>Nombre de la mascota</label>
+            <input type="text" placeholder="Ingrese el nombre de la mascota" required="required">
+        </p>
+        <p>
+            <label >edad</label>
+            <input type="number" placeholder="Ingrese la edad de la mascota" required="required">
+        </p>
+        <p>
+            <label>Correo</label>
+            <input type="email" placeholder="Ingrese el correo" required="required">
+        </p>
+        <p>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Ingrese la Contraseña" required="required">
+        </p>
+        <p>
+            <label>Color de la mascota</label>
+            <input type="color" placeholder="Ingrese el color de la mascota" required="required">
+        </p>
+        <p>
+            <label>Método de pago</label>
+            <select name="metodo_de_pago" >
+                <option value="webpay">Webpay</option>
+                <option value="paypal">Paypal</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="trueque">Trueque</option>
+            </select>
+        </p>
+        <p>
+            <p>Identificación</p>
+            <label>Cédula de identidad</label>
+            <input type="radio" name="tipo_identificacion" value="cedula" >
+            <label>Pasaporte</label>
+            <input type="radio" name="tipo_identificacion" value="Pasaporte" >
+        </p>
+        <p>
+            <h3>Servicios a pagar</h3>
+            <label>Luz</label>
+            <input type="checkbox" name="servicios" value="luz" >
+            <label>Internet</label>
+            <input type="checkbox" name="servicios" value="internet" >
+            <label>gas</label>
+            <input type="checkbox" name="servicios" value="gas" >
+        </p>
+        <p>
+            <label>Comentarios</label>
+            <textarea name="comentarios" cols="30" rows="10" ></textarea>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+  </body>
+</html>
